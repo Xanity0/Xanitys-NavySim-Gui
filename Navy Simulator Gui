@@ -1,0 +1,1140 @@
+--Made by Xanity0 aka 0ytinax
+
+local ScreenGui = Instance.new("ScreenGui")
+local NavySimGui = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local InfiniteYield = Instance.new("TextButton")
+local TurtleSpy = Instance.new("TextButton")
+local Kickanyoneoutofboatsopen = Instance.new("TextButton")
+local FatesAdmin = Instance.new("TextButton")
+local Captureaislandopen = Instance.new("TextButton")
+local CopyTheGameOpen = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local Kickanyoneoutgui = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Empty = Instance.new("TextButton")
+local Empty_2 = Instance.new("TextButton")
+local Empty_3 = Instance.new("TextButton")
+local Empty_4 = Instance.new("TextButton")
+local Empty_5 = Instance.new("TextButton")
+local Empty_6 = Instance.new("TextButton")
+local Empty_7 = Instance.new("TextButton")
+local Empty_8 = Instance.new("TextButton")
+local Empty_9 = Instance.new("TextButton")
+local Empty_10 = Instance.new("TextButton")
+local Empty_11 = Instance.new("TextButton")
+local Empty_12 = Instance.new("TextButton")
+local CloseButton = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local HelpGuiOpen = Instance.new("TextButton")
+local HelpGui = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local CloseButton_2 = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local Captureaislandfastergui = Instance.new("Frame")
+local TextLabel_9 = Instance.new("TextLabel")
+local ScorpionIsland = Instance.new("TextButton")
+local MushroomIsland = Instance.new("TextButton")
+local RagesInferno = Instance.new("TextButton")
+local CursedCove = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
+local CloseButton_3 = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local AntiIdle = Instance.new("TextButton")
+local InfiniteJump = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local UIListLayout = Instance.new("UIListLayout")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local Copy = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local CopyTheGame = Instance.new("TextButton")
+local Areyousure = Instance.new("Frame")
+local GoBack = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
+local ConfirmPutTheScriptHere = Instance.new("TextButton")
+local CloseButton_4 = Instance.new("TextButton")
+local JoinLogFrame = Instance.new("Frame")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+NavySimGui.Name = "NavySimGui"
+NavySimGui.Parent = ScreenGui
+NavySimGui.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+NavySimGui.BorderColor3 = Color3.fromRGB(255, 255, 255)
+NavySimGui.Position = UDim2.new(0.210196078, 0, 0.166982934, 0)
+NavySimGui.Size = UDim2.new(0, 618, 0, 351)
+NavySimGui.Active = true
+NavySimGui.Draggable = true
+
+TextLabel.Parent = NavySimGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Size = UDim2.new(0, 618, 0, 38)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Navy Simulator GUI"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = NavySimGui
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+InfiniteYield.BorderColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.Position = UDim2.new(0.0438448563, 0, 0.170940176, 0)
+InfiniteYield.Size = UDim2.new(0, 133, 0, 50)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextScaled = true
+InfiniteYield.TextSize = 14.000
+InfiniteYield.TextWrapped = true
+InfiniteYield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+TurtleSpy.Name = "Turtle Spy"
+TurtleSpy.Parent = NavySimGui
+TurtleSpy.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TurtleSpy.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TurtleSpy.Position = UDim2.new(0.31365937, 0, 0.170940176, 0)
+TurtleSpy.Size = UDim2.new(0, 133, 0, 50)
+TurtleSpy.Font = Enum.Font.SourceSans
+TurtleSpy.Text = "Turtle Spy"
+TurtleSpy.TextColor3 = Color3.fromRGB(255, 255, 255)
+TurtleSpy.TextScaled = true
+TurtleSpy.TextSize = 14.000
+TurtleSpy.TextWrapped = true
+TurtleSpy.MouseButton1Down:Connect(function()
+	loadstring(Game:HttpGet("https://pastebin.com/raw/SVcvdhHW"))()
+end)
+
+Kickanyoneoutofboatsopen.Name = "Kick anyone out of boats open"
+Kickanyoneoutofboatsopen.Parent = NavySimGui
+Kickanyoneoutofboatsopen.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Kickanyoneoutofboatsopen.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Kickanyoneoutofboatsopen.Position = UDim2.new(0.581855714, 0, 0.170940176, 0)
+Kickanyoneoutofboatsopen.Size = UDim2.new(0, 133, 0, 50)
+Kickanyoneoutofboatsopen.Font = Enum.Font.SourceSans
+Kickanyoneoutofboatsopen.Text = "Kick Anyone Out Of Boats Gui"
+Kickanyoneoutofboatsopen.TextColor3 = Color3.fromRGB(255, 255, 255)
+Kickanyoneoutofboatsopen.TextScaled = true
+Kickanyoneoutofboatsopen.TextSize = 14.000
+Kickanyoneoutofboatsopen.TextWrapped = true
+
+FatesAdmin.Name = "Fates Admin"
+FatesAdmin.Parent = NavySimGui
+FatesAdmin.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+FatesAdmin.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FatesAdmin.Position = UDim2.new(0.0438448563, 0, 0.427350461, 0)
+FatesAdmin.Size = UDim2.new(0, 133, 0, 50)
+FatesAdmin.Font = Enum.Font.SourceSans
+FatesAdmin.Text = "Fates Admin"
+FatesAdmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+FatesAdmin.TextScaled = true
+FatesAdmin.TextSize = 14.000
+FatesAdmin.TextWrapped = true
+FatesAdmin.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+Captureaislandopen.Name = "Capture a island open"
+Captureaislandopen.Parent = NavySimGui
+Captureaislandopen.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Captureaislandopen.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Captureaislandopen.Position = UDim2.new(0.31365937, 0, 0.427350461, 0)
+Captureaislandopen.Size = UDim2.new(0, 133, 0, 50)
+Captureaislandopen.Font = Enum.Font.SourceSans
+Captureaislandopen.Text = "Capture a island faster GUI"
+Captureaislandopen.TextColor3 = Color3.fromRGB(255, 255, 255)
+Captureaislandopen.TextScaled = true
+Captureaislandopen.TextSize = 14.000
+Captureaislandopen.TextWrapped = true
+
+CopyTheGameOpen.Name = "Copy The Game Open"
+CopyTheGameOpen.Parent = NavySimGui
+CopyTheGameOpen.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+CopyTheGameOpen.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CopyTheGameOpen.Position = UDim2.new(0.583473861, 0, 0.427350461, 0)
+CopyTheGameOpen.Size = UDim2.new(0, 133, 0, 50)
+CopyTheGameOpen.Font = Enum.Font.SourceSans
+CopyTheGameOpen.Text = "Copy The Game Gui"
+CopyTheGameOpen.TextColor3 = Color3.fromRGB(255, 255, 255)
+CopyTheGameOpen.TextScaled = true
+CopyTheGameOpen.TextSize = 14.000
+CopyTheGameOpen.TextWrapped = true
+
+TextButton.Parent = NavySimGui
+TextButton.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0438448563, 0, 0.703703761, 0)
+TextButton.Size = UDim2.new(0, 133, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Coming Soon"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = NavySimGui
+TextButton_2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.31245327, 0, 0.703703761, 0)
+TextButton_2.Size = UDim2.new(0, 133, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Coming Soon"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = NavySimGui
+TextButton_3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextButton_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.582679808, 0, 0.703703761, 0)
+TextButton_3.Size = UDim2.new(0, 133, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Coming Soon"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+Kickanyoneoutgui.Name = "Kick anyone out gui"
+Kickanyoneoutgui.Parent = NavySimGui
+Kickanyoneoutgui.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Kickanyoneoutgui.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Kickanyoneoutgui.Position = UDim2.new(0.00647249073, 0, 0.025641026, 0)
+Kickanyoneoutgui.Size = UDim2.new(0, 530, 0, 312)
+Kickanyoneoutgui.Visible = false
+
+TextLabel_2.Parent = Kickanyoneoutgui
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Size = UDim2.new(0, 530, 0, 29)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Kick Anyone Out of Boat "
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Empty.Name = "Empty"
+Empty.Parent = Kickanyoneoutgui
+Empty.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty.Position = UDim2.new(0.0860151798, 0, 0.185161486, 0)
+Empty.Size = UDim2.new(0, 126, 0, 36)
+Empty.Font = Enum.Font.SourceSans
+Empty.Text = "Boat Named SMS ENDURANCE"
+Empty.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty.TextScaled = true
+Empty.TextSize = 14.000
+Empty.TextWrapped = true
+Empty.MouseButton1Down:Connect(function()
+	workspace.Ships["SMS ENDURANCE"].Comms.Park:FireServer()
+end)
+
+Empty_2.Name = "Empty"
+Empty_2.Parent = Kickanyoneoutgui
+Empty_2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty_2.Position = UDim2.new(0.412430286, 0, 0.185161486, 0)
+Empty_2.Size = UDim2.new(0, 126, 0, 36)
+Empty_2.Font = Enum.Font.SourceSans
+Empty_2.Text = "Boat Named WARRIOR"
+Empty_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty_2.TextScaled = true
+Empty_2.TextSize = 14.000
+Empty_2.TextWrapped = true
+Empty_2.MouseButton1Down:Connect(function()
+	workspace.Ships["WARRIOR"].Comms.Park:FireServer()
+end)
+
+Empty_3.Name = "Empty"
+Empty_3.Parent = Kickanyoneoutgui
+Empty_3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty_3.Position = UDim2.new(0.710543513, 0, 0.185161486, 0)
+Empty_3.Size = UDim2.new(0, 126, 0, 36)
+Empty_3.Font = Enum.Font.SourceSans
+Empty_3.Text = "Boat named SMS HERMES"
+Empty_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty_3.TextScaled = true
+Empty_3.TextSize = 14.000
+Empty_3.TextWrapped = true
+Empty_3.MouseButton1Down:Connect(function()
+	workspace.Ships["SMS HERMES"].Comms.Park:FireServer()
+end)
+
+Empty_4.Name = "Empty"
+Empty_4.Parent = Kickanyoneoutgui
+Empty_4.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty_4.Position = UDim2.new(0.0860151798, 0, 0.380674303, 0)
+Empty_4.Size = UDim2.new(0, 126, 0, 36)
+Empty_4.Font = Enum.Font.SourceSans
+Empty_4.Text = "Boat named NEPTUNES WRATH"
+Empty_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty_4.TextScaled = true
+Empty_4.TextSize = 14.000
+Empty_4.TextWrapped = true
+Empty_4.MouseButton1Down:Connect(function()
+	workspace.Ships["NEPTUNES WRATH"].Comms.Park:FireServer()
+end)
+
+Empty_5.Name = "Empty"
+Empty_5.Parent = Kickanyoneoutgui
+Empty_5.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty_5.Position = UDim2.new(0.412430286, 0, 0.380674303, 0)
+Empty_5.Size = UDim2.new(0, 126, 0, 36)
+Empty_5.Font = Enum.Font.SourceSans
+Empty_5.Text = "Boat named PERSEUS"
+Empty_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty_5.TextScaled = true
+Empty_5.TextSize = 14.000
+Empty_5.TextWrapped = true
+Empty_5.MouseButton1Down:Connect(function()
+	workspace.Ships["PERSEUS"].Comms.Park:FireServer()
+end)
+
+Empty_6.Name = "Empty"
+Empty_6.Parent = Kickanyoneoutgui
+Empty_6.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty_6.Position = UDim2.new(0.710543513, 0, 0.380674303, 0)
+Empty_6.Size = UDim2.new(0, 126, 0, 36)
+Empty_6.Font = Enum.Font.SourceSans
+Empty_6.Text = "Boat named ARK ROYAL"
+Empty_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty_6.TextScaled = true
+Empty_6.TextSize = 14.000
+Empty_6.TextWrapped = true
+Empty_6.MouseButton1Down:Connect(function()
+	workspace.Ships["ARK ROYAL"].Comms.Park:FireServer()
+end)
+
+Empty_7.Name = "Empty"
+Empty_7.Parent = Kickanyoneoutgui
+Empty_7.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty_7.Position = UDim2.new(0.0860151798, 0, 0.579392254, 0)
+Empty_7.Size = UDim2.new(0, 126, 0, 36)
+Empty_7.Font = Enum.Font.SourceSans
+Empty_7.Text = "Boat named DESTINY"
+Empty_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty_7.TextScaled = true
+Empty_7.TextSize = 14.000
+Empty_7.TextWrapped = true
+Empty_7.MouseButton1Down:Connect(function()
+	workspace.Ships["DESTINY"].Comms.Park:FireServer()
+end)
+
+Empty_8.Name = "Empty"
+Empty_8.Parent = Kickanyoneoutgui
+Empty_8.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty_8.Position = UDim2.new(0.412430286, 0, 0.579392254, 0)
+Empty_8.Size = UDim2.new(0, 126, 0, 36)
+Empty_8.Font = Enum.Font.SourceSans
+Empty_8.Text = "Boat named SMS VICTORY"
+Empty_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty_8.TextScaled = true
+Empty_8.TextSize = 14.000
+Empty_8.TextWrapped = true
+Empty_8.MouseButton1Down:Connect(function()
+	workspace.Ships["SMS VICTORY"].Comms.Park:FireServer()
+end)
+
+Empty_9.Name = "Empty"
+Empty_9.Parent = Kickanyoneoutgui
+Empty_9.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty_9.Position = UDim2.new(0.710543513, 0, 0.579392254, 0)
+Empty_9.Size = UDim2.new(0, 126, 0, 36)
+Empty_9.Font = Enum.Font.SourceSans
+Empty_9.Text = "Empty"
+Empty_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty_9.TextScaled = true
+Empty_9.TextSize = 14.000
+Empty_9.TextWrapped = true
+
+Empty_10.Name = "Empty"
+Empty_10.Parent = Kickanyoneoutgui
+Empty_10.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty_10.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty_10.Position = UDim2.new(0.0860151798, 0, 0.784520447, 0)
+Empty_10.Size = UDim2.new(0, 126, 0, 36)
+Empty_10.Font = Enum.Font.SourceSans
+Empty_10.Text = "Empty"
+Empty_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty_10.TextScaled = true
+Empty_10.TextSize = 14.000
+Empty_10.TextWrapped = true
+
+Empty_11.Name = "Empty"
+Empty_11.Parent = Kickanyoneoutgui
+Empty_11.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty_11.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty_11.Position = UDim2.new(0.412430286, 0, 0.784520447, 0)
+Empty_11.Size = UDim2.new(0, 126, 0, 36)
+Empty_11.Font = Enum.Font.SourceSans
+Empty_11.Text = "Empty"
+Empty_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty_11.TextScaled = true
+Empty_11.TextSize = 14.000
+Empty_11.TextWrapped = true
+
+Empty_12.Name = "Empty"
+Empty_12.Parent = Kickanyoneoutgui
+Empty_12.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Empty_12.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Empty_12.Position = UDim2.new(0.710543513, 0, 0.784520447, 0)
+Empty_12.Size = UDim2.new(0, 126, 0, 36)
+Empty_12.Font = Enum.Font.SourceSans
+Empty_12.Text = "Empty"
+Empty_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+Empty_12.TextScaled = true
+Empty_12.TextSize = 14.000
+Empty_12.TextWrapped = true
+
+CloseButton.Name = "Close Button"
+CloseButton.Parent = Kickanyoneoutgui
+CloseButton.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+CloseButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton.Position = UDim2.new(0.947928548, 0, 0.0146149574, 0)
+CloseButton.Size = UDim2.new(0, 23, 0, 20)
+CloseButton.Font = Enum.Font.SourceSans
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+CloseButton.TextScaled = true
+CloseButton.TextSize = 14.000
+CloseButton.TextWrapped = true
+
+TextLabel_3.Parent = NavySimGui
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0, 0, 0.91452992, 0)
+TextLabel_3.Size = UDim2.new(0, 538, 0, 31)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Made By Xanity0"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+HelpGuiOpen.Name = "Help Gui Open"
+HelpGuiOpen.Parent = NavySimGui
+HelpGuiOpen.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+HelpGuiOpen.BorderColor3 = Color3.fromRGB(255, 255, 255)
+HelpGuiOpen.Position = UDim2.new(0.0210356005, 0, 0.0142450146, 0)
+HelpGuiOpen.Size = UDim2.new(0, 44, 0, 27)
+HelpGuiOpen.Font = Enum.Font.SourceSans
+HelpGuiOpen.Text = "?"
+HelpGuiOpen.TextColor3 = Color3.fromRGB(255, 0, 0)
+HelpGuiOpen.TextScaled = true
+HelpGuiOpen.TextSize = 14.000
+HelpGuiOpen.TextWrapped = true
+
+HelpGui.Name = "Help Gui"
+HelpGui.Parent = NavySimGui
+HelpGui.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+HelpGui.BorderColor3 = Color3.fromRGB(30, 30, 30)
+HelpGui.Position = UDim2.new(0.0210355986, 0, 0.142450139, 0)
+HelpGui.Size = UDim2.new(0, 511, 0, 247)
+HelpGui.Visible = false
+
+TextLabel_4.Parent = HelpGui
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_4.Size = UDim2.new(0, 511, 0, 32)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Help Gui"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = HelpGui
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0, 0, 0.242914975, 0)
+TextLabel_5.Size = UDim2.new(0, 511, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Here is some info about the gui itself I made this with the intention of finding flaws in navy simulator system and then giving out this gui to all that are intrested. Here are the controls to open and close the gui"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = HelpGui
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0371819958, 0, 0.473684222, 0)
+TextLabel_6.Size = UDim2.new(0, 455, 0, 33)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "(- to close and = to open)"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = HelpGui
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0371819958, 0, 0.655870438, 0)
+TextLabel_7.Size = UDim2.new(0, 455, 0, 56)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "I will be adding more to this gui in the future when I have found more hacks for this game. Thanks!"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+CloseButton_2.Name = "Close Button"
+CloseButton_2.Parent = HelpGui
+CloseButton_2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+CloseButton_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton_2.Position = UDim2.new(0.940381348, 0, 0.0242303424, 0)
+CloseButton_2.Size = UDim2.new(0, 23, 0, 20)
+CloseButton_2.Font = Enum.Font.SourceSans
+CloseButton_2.Text = "X"
+CloseButton_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+CloseButton_2.TextScaled = true
+CloseButton_2.TextSize = 14.000
+CloseButton_2.TextWrapped = true
+
+TextLabel_8.Parent = NavySimGui
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.Position = UDim2.new(0.898058236, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 62, 0, 38)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "V1"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+Captureaislandfastergui.Name = "Capture a island faster gui"
+Captureaislandfastergui.Parent = NavySimGui
+Captureaislandfastergui.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Captureaislandfastergui.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Captureaislandfastergui.Position = UDim2.new(-0.297734618, 0, 0.025641026, 0)
+Captureaislandfastergui.Size = UDim2.new(0, 184, 0, 337)
+Captureaislandfastergui.Visible = false
+
+TextLabel_9.Parent = Captureaislandfastergui
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.Position = UDim2.new(0, 0, -0.000188833175, 0)
+TextLabel_9.Size = UDim2.new(0, 184, 0, 53)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Capture a island faster gui! By Xanity0"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+ScorpionIsland.Name = "Scorpion Island"
+ScorpionIsland.Parent = Captureaislandfastergui
+ScorpionIsland.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+ScorpionIsland.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ScorpionIsland.Position = UDim2.new(0.217391297, 0, 0.198813051, 0)
+ScorpionIsland.Size = UDim2.new(0, 103, 0, 36)
+ScorpionIsland.Font = Enum.Font.SourceSans
+ScorpionIsland.Text = "Scorpion Island"
+ScorpionIsland.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScorpionIsland.TextScaled = true
+ScorpionIsland.TextSize = 14.000
+ScorpionIsland.TextWrapped = true
+ScorpionIsland.MouseButton1Down:Connect(function()
+	game:GetService("ReplicatedStorage").CaptureSystem.TickUp:FireServer(workspace.CapturePoints["Scorpion Island"])
+end)
+
+MushroomIsland.Name = "Mushroom Island"
+MushroomIsland.Parent = Captureaislandfastergui
+MushroomIsland.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+MushroomIsland.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MushroomIsland.Position = UDim2.new(0.217391297, 0, 0.560830891, 0)
+MushroomIsland.Size = UDim2.new(0, 103, 0, 36)
+MushroomIsland.Font = Enum.Font.SourceSans
+MushroomIsland.Text = "Mushroom Island"
+MushroomIsland.TextColor3 = Color3.fromRGB(255, 255, 255)
+MushroomIsland.TextScaled = true
+MushroomIsland.TextSize = 14.000
+MushroomIsland.TextWrapped = true
+MushroomIsland.MouseButton1Down:Connect(function()
+	game:GetService("ReplicatedStorage").CaptureSystem.TickUp:FireServer(workspace.CapturePoints["Mushroom Island"])
+end)
+
+RagesInferno.Name = "Rage's Inferno"
+RagesInferno.Parent = Captureaislandfastergui
+RagesInferno.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+RagesInferno.BorderColor3 = Color3.fromRGB(255, 255, 255)
+RagesInferno.Position = UDim2.new(0.217391297, 0, 0.724035561, 0)
+RagesInferno.Size = UDim2.new(0, 103, 0, 36)
+RagesInferno.Font = Enum.Font.SourceSans
+RagesInferno.Text = "Rage's Inferno"
+RagesInferno.TextColor3 = Color3.fromRGB(255, 255, 255)
+RagesInferno.TextScaled = true
+RagesInferno.TextSize = 14.000
+RagesInferno.TextWrapped = true
+RagesInferno.MouseButton1Down:Connect(function()
+	game:GetService("ReplicatedStorage").CaptureSystem.TickUp:FireServer(workspace.CapturePoints["Rage's Inferno"])
+end)
+
+CursedCove.Name = "Cursed Cove"
+CursedCove.Parent = Captureaislandfastergui
+CursedCove.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+CursedCove.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CursedCove.Position = UDim2.new(0.217391297, 0, 0.379821956, 0)
+CursedCove.Size = UDim2.new(0, 103, 0, 36)
+CursedCove.Font = Enum.Font.SourceSans
+CursedCove.Text = "Cursed Cove"
+CursedCove.TextColor3 = Color3.fromRGB(255, 255, 255)
+CursedCove.TextScaled = true
+CursedCove.TextSize = 14.000
+CursedCove.TextWrapped = true
+CursedCove.MouseButton1Down:Connect(function()
+	game:GetService("ReplicatedStorage").CaptureSystem.TickUp:FireServer(workspace.CapturePoints["Cursed Cove"])
+end)
+
+TextLabel_10.Parent = Captureaislandfastergui
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_10.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.Position = UDim2.new(1, 0, -0.00296735903, 0)
+TextLabel_10.Size = UDim2.new(0, 146, 0, 109)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "When on a islands capture point spam the associated island name for the tick speed to go faster resulting in fast capture! (Press this text to close)"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+TextButton_4.Parent = TextLabel_10
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Size = UDim2.new(0, 146, 0, 109)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = ""
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+CloseButton_3.Name = "Close Button"
+CloseButton_3.Parent = Captureaislandfastergui
+CloseButton_3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+CloseButton_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton_3.Position = UDim2.new(0.0403198563, 0, 0.887003839, 0)
+CloseButton_3.Size = UDim2.new(0, 32, 0, 32)
+CloseButton_3.Font = Enum.Font.SourceSans
+CloseButton_3.Text = "<"
+CloseButton_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+CloseButton_3.TextScaled = true
+CloseButton_3.TextSize = 14.000
+CloseButton_3.TextWrapped = true
+
+ScrollingFrame.Parent = NavySimGui
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.Position = UDim2.new(0.869171262, 0, 0.110884063, 0)
+ScrollingFrame.Size = UDim2.new(0, 79, 0, 313)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0.600000024, 0)
+
+AntiIdle.Name = "AntiIdle"
+AntiIdle.Parent = ScrollingFrame
+AntiIdle.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+AntiIdle.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AntiIdle.Position = UDim2.new(0.0970833227, 0, 0.0143770976, 0)
+AntiIdle.Size = UDim2.new(0, 65, 0, 45)
+AntiIdle.Font = Enum.Font.SourceSans
+AntiIdle.Text = "Anti Idle"
+AntiIdle.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiIdle.TextScaled = true
+AntiIdle.TextSize = 14.000
+AntiIdle.TextWrapped = true
+AntiIdle.MouseButton1Click:Connect(function()
+
+end)
+
+InfiniteJump.Name = "Infinite Jump"
+InfiniteJump.Parent = ScrollingFrame
+InfiniteJump.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+InfiniteJump.BorderColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteJump.Position = UDim2.new(0.0970833227, 0, 0.067508027, 0)
+InfiniteJump.Size = UDim2.new(0, 65, 0, 45)
+InfiniteJump.Font = Enum.Font.SourceSans
+InfiniteJump.Text = "Infinite Jump"
+InfiniteJump.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteJump.TextScaled = true
+InfiniteJump.TextSize = 14.000
+InfiniteJump.TextWrapped = true
+InfiniteJump.MouseButton1Down:Connect(function()
+	loadstring(Game:HttpGet("https://pastebin.com/raw/PnMx0iwR"))()
+end)
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextButton_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.0970833227, 0, 1.12584651, 0)
+TextButton_5.Size = UDim2.new(0, 65, 0, 45)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Coming Soon"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextButton_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(0.00847572833, 0, 0.672172427, 0)
+TextButton_6.Size = UDim2.new(0, 65, 0, 45)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Coming Soon"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextButton_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.Position = UDim2.new(0.0970833227, 0, 0.173769876, 0)
+TextButton_7.Size = UDim2.new(0, 65, 0, 45)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Coming Soon"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = ScrollingFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextButton_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.Position = UDim2.new(0.00847572833, 0, 0.672172427, 0)
+TextButton_8.Size = UDim2.new(0, 65, 0, 45)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Coming Soon"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = ScrollingFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextButton_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.Position = UDim2.new(0.0970833227, 0, -0.464025557, 0)
+TextButton_9.Size = UDim2.new(0, 65, 0, 45)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Coming Soon"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+Copy.Name = "Copy "
+Copy.Parent = NavySimGui
+Copy.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Copy.Position = UDim2.new(0.110364482, 0, 0.137525201, 0)
+Copy.Size = UDim2.new(0, 436, 0, 248)
+Copy.Visible = false
+
+TextLabel_11.Parent = Copy
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_11.Size = UDim2.new(0, 436, 0, 32)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "Copy the game GUI "
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+CopyTheGame.Name = "Copy The Game"
+CopyTheGame.Parent = Copy
+CopyTheGame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+CopyTheGame.Position = UDim2.new(0.270642191, 0, 0.399193555, 0)
+CopyTheGame.Size = UDim2.new(0, 200, 0, 50)
+CopyTheGame.Font = Enum.Font.SourceSans
+CopyTheGame.Text = "Copy The Game"
+CopyTheGame.TextColor3 = Color3.fromRGB(255, 255, 255)
+CopyTheGame.TextScaled = true
+CopyTheGame.TextSize = 14.000
+CopyTheGame.TextWrapped = true
+
+Areyousure.Name = "Are you sure"
+Areyousure.Parent = Copy
+Areyousure.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Areyousure.Position = UDim2.new(0.149082571, 0, 0.241935477, 0)
+Areyousure.Size = UDim2.new(0, 305, 0, 127)
+Areyousure.Visible = false
+
+
+GoBack.Name = "Go Back"
+GoBack.Parent = Areyousure
+GoBack.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+GoBack.Position = UDim2.new(0.274213731, 0, 0.599193633, 0)
+GoBack.Size = UDim2.new(0, 133, 0, 29)
+GoBack.Font = Enum.Font.SourceSans
+GoBack.Text = "Go Back"
+GoBack.TextColor3 = Color3.fromRGB(255, 255, 255)
+GoBack.TextScaled = true
+GoBack.TextSize = 14.000
+GoBack.TextWrapped = true
+
+TextLabel_12.Parent = Areyousure
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_12.Size = UDim2.new(0, 305, 0, 21)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "Are you sure?"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+
+ConfirmPutTheScriptHere.Name = "Confirm ( Put The Script Here)"
+ConfirmPutTheScriptHere.Parent = Areyousure
+ConfirmPutTheScriptHere.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+ConfirmPutTheScriptHere.Position = UDim2.new(0.274213731, 0, 0.229193583, 0)
+ConfirmPutTheScriptHere.Size = UDim2.new(0, 133, 0, 29)
+ConfirmPutTheScriptHere.Font = Enum.Font.SourceSans
+ConfirmPutTheScriptHere.Text = "Confirm"
+ConfirmPutTheScriptHere.TextColor3 = Color3.fromRGB(255, 255, 255)
+ConfirmPutTheScriptHere.TextScaled = true
+ConfirmPutTheScriptHere.TextSize = 14.000
+ConfirmPutTheScriptHere.TextWrapped = true
+ConfirmPutTheScriptHere.MouseButton1Down:Connect(function()
+	saveinstance({decomptype = new})
+end)
+
+CloseButton_4.Name = "Close Button"
+CloseButton_4.Parent = Copy
+CloseButton_4.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+CloseButton_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton_4.Position = UDim2.new(0.940381348, 0, 0.0242303424, 0)
+CloseButton_4.Size = UDim2.new(0, 23, 0, 20)
+CloseButton_4.Font = Enum.Font.SourceSans
+CloseButton_4.Text = "X"
+CloseButton_4.TextColor3 = Color3.fromRGB(255, 0, 0)
+CloseButton_4.TextScaled = true
+CloseButton_4.TextSize = 14.000
+CloseButton_4.TextWrapped = true
+
+JoinLogFrame.Name = "Join Log Frame"
+JoinLogFrame.Parent = ScreenGui
+JoinLogFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+JoinLogFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+JoinLogFrame.Position = UDim2.new(0.910976887, 0, 0.242911339, 0)
+JoinLogFrame.Size = UDim2.new(0, 121, 0, 323)
+
+TextLabel_13.Parent = JoinLogFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_13.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.Position = UDim2.new(0.115044251, 0, 0.0339943357, 0)
+TextLabel_13.Size = UDim2.new(0, 86, 0, 27)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = ".."
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+TextLabel_14.Parent = JoinLogFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_14.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.Position = UDim2.new(0.115044251, 0, 0.161473081, 0)
+TextLabel_14.Size = UDim2.new(0, 86, 0, 27)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = ".."
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+
+TextLabel_15.Parent = JoinLogFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_15.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.Position = UDim2.new(0.115044251, 0, 0.288951814, 0)
+TextLabel_15.Size = UDim2.new(0, 86, 0, 27)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = ".."
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+
+TextLabel_16.Parent = JoinLogFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_16.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.Position = UDim2.new(0.115044251, 0, 0.427762061, 0)
+TextLabel_16.Size = UDim2.new(0, 86, 0, 27)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = ".."
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+
+TextLabel_17.Parent = JoinLogFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_17.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.Position = UDim2.new(0.115044251, 0, 0.55524081, 0)
+TextLabel_17.Size = UDim2.new(0, 86, 0, 27)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = ".."
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextWrapped = true
+
+TextLabel_18.Parent = JoinLogFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_18.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.Position = UDim2.new(0.115044251, 0, 0.682719529, 0)
+TextLabel_18.Size = UDim2.new(0, 86, 0, 27)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = ".."
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextWrapped = true
+
+TextLabel_19.Parent = JoinLogFrame
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TextLabel_19.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.Position = UDim2.new(0.115044251, 0, 0.81756711, 0)
+TextLabel_19.Size = UDim2.new(0, 86, 0, 27)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = ".."
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextWrapped = true
+
+-- Scripts:
+
+local function NGOPNG_fake_script() -- Kickanyoneoutofboatsopen.LocalScript 
+	local script = Instance.new('LocalScript', Kickanyoneoutofboatsopen)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent["Kick anyone out gui"].Visible = true
+	end)
+end
+coroutine.wrap(NGOPNG_fake_script)()
+local function DNDE_fake_script() -- Captureaislandopen.LocalScript 
+	local script = Instance.new('LocalScript', Captureaislandopen)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent["Capture a island faster gui"].Visible = true
+	end)
+end
+coroutine.wrap(DNDE_fake_script)()
+local function DLWJQTO_fake_script() -- CopyTheGameOpen.LocalScript 
+	local script = Instance.new('LocalScript', CopyTheGameOpen)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent["Copy "].Visible = true
+	end)
+end
+coroutine.wrap(DLWJQTO_fake_script)()
+local function SQVUN_fake_script() -- CloseButton.LocalScript 
+	local script = Instance.new('LocalScript', CloseButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(SQVUN_fake_script)()
+local function UBCRJIJ_fake_script() -- HelpGuiOpen.LocalScript 
+	local script = Instance.new('LocalScript', HelpGuiOpen)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent["Help Gui"].Visible = true
+	end)
+end
+coroutine.wrap(UBCRJIJ_fake_script)()
+local function KDJJI_fake_script() -- CloseButton_2.LocalScript 
+	local script = Instance.new('LocalScript', CloseButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(KDJJI_fake_script)()
+local function GHSI_fake_script() -- NavySimGui.LocalScript 
+	local script = Instance.new('LocalScript', NavySimGui)
+
+	local Plr = game.Players.LocalPlayer
+
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "-" then
+			script.Parent.Visible = false
+		end
+	end)
+
+	local Plr = game.Players.LocalPlayer
+
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "=" then
+			script.Parent.Visible = true
+		end
+	end)
+end
+coroutine.wrap(GHSI_fake_script)()
+local function QJKJAA_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(QJKJAA_fake_script)()
+local function GCKKVD_fake_script() -- CloseButton_3.LocalScript 
+	local script = Instance.new('LocalScript', CloseButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(GCKKVD_fake_script)()
+local function HDTB_fake_script() -- CopyTheGame.LocalScript 
+	local script = Instance.new('LocalScript', CopyTheGame)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent["Are you sure"].Visible = true
+	end)
+end
+coroutine.wrap(HDTB_fake_script)()
+local function MLEYVSM_fake_script() -- GoBack.LocalScript 
+	local script = Instance.new('LocalScript', GoBack)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(MLEYVSM_fake_script)()
+local function AJUVWC_fake_script() -- ConfirmPutTheScriptHere.LocalScript 
+	local script = Instance.new('LocalScript', ConfirmPutTheScriptHere)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(AJUVWC_fake_script)()
+local function NIZYP_fake_script() -- CloseButton_4.LocalScript 
+	local script = Instance.new('LocalScript', CloseButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(NIZYP_fake_script)()
+local function IEQO_fake_script() -- TextLabel_13.Script 
+	local script = Instance.new('Script', TextLabel_13)
+
+	local Players = game:GetService("Players")
+
+	Players.PlayerAdded:Connect(function(player)
+		if player.Name == '-' or player.Name == '...' then
+			script.Parent.Text = 'Admin Has Joined (utebug13)'
+		end
+	end)
+end
+coroutine.wrap(IEQO_fake_script)()
+local function WBPG_fake_script() -- TextLabel_14.Script 
+	local script = Instance.new('Script', TextLabel_14)
+
+	local Players = game:GetService("Players")
+
+	Players.PlayerAdded:Connect(function(player)
+		if player.Name == 'ShoomamaAtlantis' or player.Name == '...' then
+			script.Parent.Text = 'Owner Has Joined (ShoomamaAtlantis)'
+		end
+	end)
+end
+coroutine.wrap(WBPG_fake_script)()
+local function CSSHI_fake_script() -- TextLabel_15.Script 
+	local script = Instance.new('Script', TextLabel_15)
+
+	local Players = game:GetService("Players")
+
+	Players.PlayerAdded:Connect(function(player)
+		if player.Name == 'alf139' or player.Name == '..' then
+			script.Parent.Text = 'Admin Has Joined (alf139)'
+		end
+	end)
+
+
+end
+coroutine.wrap(CSSHI_fake_script)()
+local function LMDO_fake_script() -- TextLabel_16.Script 
+	local script = Instance.new('Script', TextLabel_16)
+
+	local Players = game:GetService("Players")
+
+	Players.PlayerAdded:Connect(function(player)
+		if player.Name == 'yummyGggg' or player.Name == '...' then
+			script.Parent.Text = 'Admin Has Joined (yummyGggg)'
+		end
+	end)
+end
+coroutine.wrap(LMDO_fake_script)()
+local function XGRA_fake_script() -- TextLabel_17.Script 
+	local script = Instance.new('Script', TextLabel_17)
+
+	local Players = game:GetService("Players")
+
+	Players.PlayerAdded:Connect(function(player)
+		if player.Name == 'NotAstrain' or player.Name == '...' then
+			script.Parent.Text = 'Admin Has Joined (NotAstrain)'
+		end
+	end)
+end
+coroutine.wrap(XGRA_fake_script)()
+local function NOEGEL_fake_script() -- TextLabel_18.Script 
+	local script = Instance.new('Script', TextLabel_18)
+
+	local Players = game:GetService("Players")
+
+	Players.PlayerAdded:Connect(function(player)
+		if player.Name == 'JohnathonAtlantis' or player.Name == '...' then
+			script.Parent.Text = 'Admin Has Joined (JohnathonAtlantis)'
+		end
+	end)
+end
+coroutine.wrap(NOEGEL_fake_script)()
+local function JPJNWM_fake_script() -- TextLabel_19.Script 
+	local script = Instance.new('Script', TextLabel_19)
+
+	local Players = game:GetService("Players")
+
+	Players.PlayerAdded:Connect(function(player)
+		if player.Name == 'ChessBoarders' or player.Name == '...' then
+			script.Parent.Text = 'Admin Has Joined (ChessBoarders)'
+		end
+	end)
+end
+coroutine.wrap(JPJNWM_fake_script)()
